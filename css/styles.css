@@ -1,0 +1,47 @@
+ul li {
+  margin: 0px;
+  padding-left: 0px;
+}
+.list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+.item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 10px;
+  color: rgb(151, 191, 215);
+}
+.name {
+  width: 170px;
+}
+.number {
+  width: 160px;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  width: 70px;
+  height: 22px;
+  border: 1px rgb(117, 157, 144) solid;
+  border-radius: 10%;
+  color: aliceblue;
+  background-color: rgb(117, 157, 144);
+}
+.btn.remove {
+  background-color: rgb(111, 164, 176);
+}
+h1 {
+  color: rgb(117, 157, 144);
+}
+p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+}
